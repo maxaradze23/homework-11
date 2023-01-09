@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+h2{
+    color: whitesmoke;
+}
+.Flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+.Grid{
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-auto-rows: 150px;
+    grid-gap: 20px;
+}
+.block1{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+}
+.block1 p{
+    color: blue;
+    padding-top: 60%;
+}
+.block2{
+    background-color: white;
+    text-align: center;
+}
+.block2 p{
+    color: blue;
+    padding-top: 25%;
+}
+.block3{
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+}
+.block3 p{
+    color: blue;
+    padding-top: 13%;
+}
+.block4{
+    background-color: white;
+    text-align: center;
+}
+.block4 p{
+    color: blue;
+    padding-top: 25%;
+}
+.block5{
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+}
+.block5 p{
+    color: blue;
+    padding-top: 60%;
+}
+.block6{
+    background-color: white;
+    text-align: center;
+}
+.block6 p{
+    color: blue;
+    padding-top: 30%;
+}
+.block7{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    text-align: center;
+
+}
+.block7 p{
+    color: blue;
+    padding-top: 60%;
+}
+.block8{
+    background-color: white;
+    text-align: center;
+}
+.block8 p{
+    color: blue;
+    padding-top: 30%;
+}
+.block9{
+    background-color: white;
+    text-align: center;
+}
+.block9 p{
+    color: blue;
+    padding-top: 30%;
+}
+.block10{
+    background-color: white;
+    text-align: center;
+}
+.block10 p{
+    color: blue;
+    padding-top: 30%;
+}
+.block11{
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+}
+.block11 p{
+    color: blue;
+    padding-top: 15%;
+}
